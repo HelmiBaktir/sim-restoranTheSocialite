@@ -1,0 +1,49 @@
+table {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    border-collapse: collapse;
+    height: 300px;
+}
+
+thead {
+    flex: 0 0 auto;
+    border-bottom: 3px solid #E5E5E5;
+    height: 50px;
+    display: block;
+}
+
+table tbody {
+    flex: 1 1 auto;
+    display: block;
+    /* overflow-x: scroll; */
+    overflow-x: hidden;
+}
+
+tr {
+    width: 100%;
+    display: table;
+    table-layout: fixed;
+}
+
+table tbody tr td {
+    width: 100%;
+    border-bottom: 1px solid #E5E5E5;
+    border-right: 1px solid #E5E5E5;
+}
+
+table td,
+table th {
+    padding: 12px 15px;
+}
+
+div {
+    height: 300px;
+    width: 80%;
+    margin-top: 20px;
+    margin-left: 30px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    padding: 10px 10px 10px 10px;
+}

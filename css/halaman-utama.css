@@ -1,0 +1,193 @@
+        body {
+            background: #F5F6FA;
+        }
+        
+        .header {
+            width: 100%;
+            height: 140px;
+            background: #2A1F41;
+            border-radius: 0% 0% 50% 50%;
+            overflow: auto;
+            position: fixed;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            margin-bottom: 50px;
+        }
+        
+        .header #logo {
+            border-radius: 100%;
+            box-shadow: 5px 6px 2px 3px rgba(0, 0, 0, 0.25);
+            margin-left: 60px;
+            margin-top: 20px;
+            color: white;
+        }
+        
+        .site-identity {
+            float: left;
+            height: 90%;
+            margin-top: 5px;
+        }
+        
+        .site-identity h2 {
+            font-size: 1.5em;
+            margin-top: 10%;
+            display: inline-block;
+            font-family: "Poppins";
+            color: #E0D5F7;
+            margin-left: 10px;
+        }
+        
+        .site-identity img {
+            max-width: 50px;
+            max-height: 50px;
+            float: left;
+            margin: 0 10px 0 0;
+        }
+        
+        .side-right {
+            float: right;
+            height: 100%;
+            margin-right: 2%;
+        }
+        
+        .side-right button {
+            float: right;
+            margin-top: 40px;
+            background-color: #2A1F41;
+            margin-left: 30px;
+            height: 30px;
+            width: 30px;
+            border: none;
+        }
+        
+        .side-right img {
+            border-radius: 100%;
+            max-width: 40px;
+            margin-top: 20%;
+            margin-right: 10px;
+        }
+        
+        .txtUset {
+            float: right;
+            font-family: "Poppins";
+            line-height: 10%;
+            color: #fff;
+            margin-right: 10px;
+        }
+        
+        .side-right h4 {
+            margin-top: 50%;
+        }
+        
+        .side-right p {
+            font-size: xx-small;
+            bottom: 30;
+        }
+        /* card php */
+        
+        .cardContainer {
+            width: 100%;
+            height: 30%;
+            margin-top: 200px;
+            min-height: 250px;
+            display: table;
+        }
+        
+        .cardContainer p {
+            font-size: x-small;
+            margin-left: 4%;
+            line-height: 1;
+        }
+        
+        .cardContainer h3 {
+            margin-left: 4%;
+            margin-bottom: 40px;
+        }
+        
+        .cardContainer h5 {
+            font-size: small;
+            margin-left: 4%;
+            line-height: 0;
+        }
+        
+        .cardContainer .right {
+            float: right;
+            margin-top: -20px;
+            margin-right: 70px;
+        }
+        
+        .row {
+            align-items: stretch;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            overflow-x: auto;
+            overflow-y: hidden;
+        }
+        
+        .card {
+            /*float: left;*/
+            height: 150px;
+            width: 200px;
+            padding: .75rem;
+            margin-bottom: 2rem;
+            border: 0;
+            flex-basis: 300px;
+            flex-grow: 20;
+            flex-shrink: 0;
+            margin-right: 20px;
+            margin-left: 20px;
+            border-radius: 12px;
+            box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.12);
+            color: #fff;
+            background-image: linear-gradient(to right top, #000000, #2A1F41, #2A1F41, #3d0093, #7ad0d6);
+            font-family: "Poppins";
+        }
+        
+        .card-text {
+            font-size: 85%;
+        }
+        /* Card For Menu */
+        
+        .container-menu {
+            margin-top: 30px;
+        }
+        
+        .container-menu .box {
+            height: 250px;
+            background-color: #fff;
+            box-shadow: 2px 5px 8px rgba(0, 0, 0, 0.25);
+            border-radius: 25px;
+            float: left;
+            width: 30%;
+            margin-right: 22px;
+            margin-left: 22px;
+            margin-top: 10px;
+        }
+        
+        .container-menu .center {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+        
+        .container-menu h3 {
+            text-align: center;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 30px;
+            line-height: 0;
+        }
+        
+        .container-menu a {
+            text-decoration: none;
+        }
+        
+        @media screen and (max-width: 600px) {
+            .container-menu .box {
+                width: 100%;
+            }
+        }
